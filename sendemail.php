@@ -18,9 +18,9 @@ if(isset($_POST['submit'])){
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'hmodymtz@gmail.com'; // Gmail address which you want to use as SMTP server
-    $mail->Password = 'jojo2020'; // Gmail address Password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->Username = 'jowefds@gmail.com'; // Gmail address which you want to use as SMTP server
+    $mail->Password = 'mohkill@ru'; // Gmail address Password
+    $mail->SMTPSecure = 'TLS';
     $mail->Port = '587';
 
     $mail->setFrom('hmodymtz@gmail.com'); // Gmail address which you used as SMTP server
