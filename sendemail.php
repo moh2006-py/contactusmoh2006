@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
 
   try{
     $mail->isSMTP();
-    $mail->Host = 'contactmoh.herokuapp.com';
+    $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'hmodymtz@gmail.com'; // Gmail address which you want to use as SMTP server
     $mail->Password = 'jojo2020'; // Gmail address Password
